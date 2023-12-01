@@ -117,3 +117,8 @@ if (sum2 <= 60) {
 } else {
   console.log("wrong");
 }
+
+
+
+
+
