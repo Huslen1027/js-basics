@@ -16,7 +16,7 @@ let products = [
   {
     name: "T-shirt",
     price: 900,
-    category: "electronic",
+    category: "Fashion",
     brand: "adidas",
     stoch: 9,
   },
@@ -37,8 +37,8 @@ let products = [
   },
   {
     name: "yamaha-RB",
-    price: 2000,
-    category: "electronic",
+    price: 3000,
+    category: "bike",
     brand: "yamaha",
     stoch: 4,
   },
@@ -66,16 +66,35 @@ let products = [
   {
     name: "soks",
     price: 20,
-    category: "electronic",
+    category: "Fashion",
     brand: "nike",
     stoch: 8,
   },
 ];
-
-for (let a = 0; a < products.length; a = a + 1) {
-  let changePries = products[a].price * 0.9;
-  console.log(changePries);
+let findMostExpensive = products[0].price;
+for (i = 0; i < 10; i = i + 1) {
+  if (findMostExpensive < products[i].price) {
+    findMostExpensive = products[i].price;
+  }
 }
+console.log(findMostExpensive);
+
+// function findByCategory(cate) {
+//   for (let i = 0; i < 10; i = i + 1) {
+//     if (products[i].category == cate) {
+//       console.log(products[i]);
+//     }
+//   }
+// }
+// findByCategory("bike");
+
+// function setSale(saleAmount) {
+//   for (let a = 0; a < 10; a = a + 1) {
+//     products[i].price = products[i].price * (1 - saleAmount / 100);
+//   }
+// }
+// setSale(20);
+// console.log(products);
 
 // products[0].price = products[0].price * 0.9;
 // products[1].price = products[1].price * 0.9;
