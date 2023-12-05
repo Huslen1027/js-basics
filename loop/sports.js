@@ -47,12 +47,13 @@ let soccer = [
   },
 ];
 
-
-
-
-
-
-
+let youngBoy = soccer[0].age;
+for (i = 0; i < 10; i++) {
+  if (soccer[i].age < youngBoy) {
+    youngBoy = soccer[i].age;
+  }
+  console.log(youngBoy);
+}
 // function avg(a, b, c, d) {
 //   return (a + b + c + d) / 4;
 // }
