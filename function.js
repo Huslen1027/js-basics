@@ -34,3 +34,9 @@ function findMonth(day) {
 }
 
 console.log(findMonth(333));
+
+
+
+
+
+
