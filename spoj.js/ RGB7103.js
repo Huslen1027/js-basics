@@ -1,4 +1,4 @@
-function moreThannumber(a, b, c) {
+function threeih(a, b, c) {
   if (a > b && a > c) {
     console.log(a);
   } else if (b > a && b > c) {
@@ -7,4 +7,4 @@ function moreThannumber(a, b, c) {
     console.log(c);
   }
 }
-let ar = moreThannumber(1, 3, 2);
+threeih(3, 2, 1);
