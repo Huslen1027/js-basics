@@ -71,13 +71,18 @@ let products = [
     stoch: 8,
   },
 ];
-let findMostExpensive = products[0].price;
-for (i = 0; i < 10; i = i + 1) {
-  if (findMostExpensive < products[i].price) {
-    findMostExpensive = products[i].price;
-  }
-}
-console.log(findMostExpensive);
+let findBrand = products.filter((a) => {
+  return a.brand == "samsung";
+});
+console.log(`Brand :`, findBrand);
+
+// let findMostExpensive = products[0].price;
+// for (i = 0; i < 10; i = i + 1) {
+//   if (findMostExpensive < products[i].price) {
+//     findMostExpensive = products[i].price;
+//   }
+// }
+// console.log(findMostExpensive);
 
 // function findByCategory(cate) {
 //   for (let i = 0; i < 10; i = i + 1) {
