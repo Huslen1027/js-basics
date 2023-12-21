@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  gap: 15px;
+  padding: 20px;
+}
+.container button {
+  padding: 5px 5px;
+  
+}

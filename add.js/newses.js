@@ -71,3 +71,4 @@ let news = [
     category: "Fashion",
   },
 ];
+
