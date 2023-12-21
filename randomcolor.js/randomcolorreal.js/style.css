@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 310px;
+  margin: auto;
+}
+.head {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid;
+  border: none;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  margin-bottom: 50px;
+}
+
+.box {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+.score {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+}
+.level {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+}
